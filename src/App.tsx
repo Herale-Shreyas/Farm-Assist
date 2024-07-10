@@ -1,13 +1,12 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 // conponents
 import Header from "./components/Header.tsx";
-import Footer from "./components/Footer.tsx";
 // pages
 import Home from "./pages/Home";
 import Register from "./pages/Register.tsx";
 import Login from "./pages/Login.tsx";
 import Weather from "./pages/Weather.tsx";
-import CropAdviser from "./pages/CropAdviser.tsx";
+import CropAdviser from "./pages/CropAdviser/CropAdviser.tsx";
 import Disease from "./pages/Disease.tsx";
 import Apmc from "./pages/Apmc.tsx";
 import ErrorPage from "./pages/ErrorHandler/ErrorPage.tsx";
@@ -16,7 +15,6 @@ const MainLayout = () => (
   <>
     <Header />
     <Outlet />
-    {/* <Footer /> */}
   </>
 );
 

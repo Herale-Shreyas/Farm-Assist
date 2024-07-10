@@ -17,7 +17,7 @@ import { useAuth } from "./contexts/Auth";
 const navList = [
   { title: "Home", path: "/" },
   { title: "Weather", path: "/weather.report" },
-  { title: "Crop Assist AI", path: "/crop.adviser.ai" },
+  { title: "Crop Adviser AI", path: "/crop.adviser.ai" },
   { title: "Crop Diseases AI", path: "/crop.disease.ai" },
 ];
 
